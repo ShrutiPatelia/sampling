@@ -12,6 +12,11 @@ import seaborn as sns
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
+import random
+np.random.seed(123)
+random.seed(123)
+
+
 # Constants representing the parameters of the model
 ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
@@ -67,8 +72,8 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Run the simulation 1000 times
-results = [simulate_event(m) for m in range(1000)]
+# Run the modified simulation 100 times
+results = [simulate_event(m) for m in range(100)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
