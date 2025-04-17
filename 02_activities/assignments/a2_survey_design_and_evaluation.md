@@ -40,30 +40,63 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+
+Scenario One: 
+
+Purpose: The aim of this survey is to examine the trend of high turnover rate among entry and lower level employees across departments within the large tech company. A survey will be circulated to better understand the factors influencing job satisfaction, workplace environment, and opportunities for growth to improve retention. 
+
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: The target population would be the entire group of individuals that are current and former employees in the entry and lower level across departments. 
+
+Sampling frame: The sampling frame will be a list of employees gathered from the company's HR records on current and recently departed employees.
+
+Sampling Units: Each individual current or former employee across departments will represent a sampling unit
+
+Observational Units: Employees that complete the survey.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What department are you/were you working in? 
+    (choices of departments)
+2. How long have/did you work in this company? 
+    a) Less than 3 months 
+    b) Between 3-5 months
+    c) Between 6-12 months
+    d) More than a year
+3. What is/was your position in the company? 
+    (open-ended question)
+4. What do you love about your job?
+    (open-ended question)
+5. What do you not like abour your job?
+    (open-ended question)
+6. How satisfied are/were you with the following aspects of your job? 
+    Likart scale of 1 = very dissatisfied to 5 = very satisfied
+
+    a) Compensation and benefits
+        1, 2, 3, 4, 5
+    b) Supervisor management
+        1, 2, 3, 4, 5
+    c) Training and transitioning into the company 
+        1, 2, 3, 4, 5
+    d) Opportunities for career development
+        1, 2, 3, 4, 5
+    e) Relationship with peers/staff
+        1, 2, 3, 4, 5
+    f) Respectful work environment
+        1, 2, 3, 4, 5
+    g) Workload
+        1, 2, 3, 4, 5
+
+7. If you left the company, what were the main reasons you chose to leave?
+    (open-ended question)
+8. What would suggest for improving the employee experience? 
+    (open-ended question)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +104,31 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample type: The GSS survey used a stratified random sampling method where they surveyed individuals across various demographic groups and across regions. The survey was circulated to a sample population that was divided into strata and then randomly sampled within each stratum. The GSS used a two-stage sampling design.
+
+Sample size: A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+
+Target population: Information is collected from one randomly selected household member aged 15 or older, and proxy responses are not permitted.
+
+Sampling frame: This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established).
+
+Survey mode(s): The survey was distributed via telephone and electronic questionnaire
+
+Timeline: The GSS is distributed very 5 years; This cycle was from September 2018 to December 2018
+
+Response rate: The overall response rate is 41.9%.
+
+Weights: The GSS uses weighted samples to ensure respondents are weighted proportionally. For example, in a simple random sample of 2% of the population, each person in the sample represents 50 persons in the population (himself/herself and 49 others).
+
+Data processing: The data went through rigorous processing to clean and detect errors.
+
+Cleaning, imputation etc: Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality output. Edits were performed automatically and manually at various stages of processing at macro and micro levels. Error detection was done through edits programmed into the CATI system.
+
+Sources of error: Potential sources of error could be sampling error since the survey is based on sample and not the entire population. In addition, the survey is conducted in English so it difficult to capture non-English speaking residents.
+
+Limitations, known biases etc: Residents of the territories and full-time institutional residents were not included, which may limit the generalizability of the results to these groups. Responses are based on self-reporting, which may be subject to social desirability bias or recall errors.
+
+Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
